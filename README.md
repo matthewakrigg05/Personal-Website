@@ -1,0 +1,1 @@
+This is a beginning at making my personal portfolio website, I initally built this a few months ago but I have now decided to put it on github to make me work on it some more and make it more presentable.
