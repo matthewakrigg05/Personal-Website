@@ -1,0 +1,6 @@
+ - restart using same info
+ - design roughly what i want site to look like
+ - make sure site is responsive
+ - look into running site off a raspberry pi
+ - provide links to socials
+ - include pictures of projects
