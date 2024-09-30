@@ -70,6 +70,6 @@
 
 #medialinks img{
   float: right;
-  max-width: 16px;
-  max-height: 16px;
+  max-width: 17px;
+  max-height: 100%;
 }
