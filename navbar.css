@@ -77,3 +77,48 @@
 #aboutMe {
   margin-left: 1.5%;
 }
+
+.dropdown2 {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown2 .dropbtn2 {
+  background-color: inherit;
+  font-family: inherit;
+  font-size: inherit;  
+  border: none;
+  outline: none;
+  color: #C5C6C7;
+  padding: 16px 16px;
+}
+
+.navbar a:hover, .dropdown2:hover .dropbtn2 {
+  background-color: #1F2833;
+}
+
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: #0B0C10;
+  min-width: 160px;
+  border-top: solid #C5C6C7;
+  border-width: 1px;
+}
+
+.dropdown-content2 a {
+  float: none;
+  color: #C5C6C7;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content2 a:hover {
+  background-color: #1F2833;
+}
+
+.dropdown2:hover .dropdown-content2 {
+  display: block;
+}
