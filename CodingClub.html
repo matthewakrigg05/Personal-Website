@@ -8,38 +8,20 @@
     <meta name="viewport" content="width=devide-width, initial-scale=1.0">
     <link rel="stylesheet" href="navbar.css"/>
     <link rel="stylesheet" href="pagestyles.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 
 <body>
-    
-    <header class="nav-container">
-        <div class="navbar">
-            <a href="/index.html" id="aboutMe" title="Home">About Me</a>
-            <div class="dropdown">
-                <button class="dropbtn">Dropdown <i class="fa fa-caret-down"></i></button>
-                    <div class="dropdown-content">
-                    <a href="/CodingClub.html">Coding Club</a>
-                    <a href="/ExtraCurricular.html"> Extra Curricular</a>
-                </div> 
-            </div>
-
-            <div id="medialinks">
-                <a href="https://www.linkedin.com/in/matthew-akrigg-656b32251/" target="_blank" title=" My LinkedIn"><img src="images\734383_in_linked_media_online_social_icon.png"></a>
-                <a href="https://github.com/matthewakrigg05" target="_blank" title="My GitHub"><img src="images\1221583_github_logo_media_social_icon.png"></a>
-                <a href="https://www.instagram.com/matthewakrigg/?hl=en" target="_blank" title="My Instagram"><img src="images\734394_instagram_media_online_social_icon.png"></a>
-                <a href="https://twitter.com/mattak05" target="_blank" title="My Twitter"><img src="images\734377_media_online_social_twitter_icon.png"></a>
-            </div>
-        </div>
-    </header>
+    <div id="nav-placeholder"></div>
+    <script>$(function(){$("#nav-placeholder").load("nav.html");});</script>
 
     <main>
         <div class="CodingClub"></div>
             <h1>Running The University Coding Club</h1>
-            <p>In my first year of university, I decided to set up a Coding Club as there was not one already running. I felt as though there was not a good 
-                existing way for people who are interested in programming to gather, collaberate and discuss topics in and related to programming. In the club,
-                we worked together on a range of small projects to gradually teach eachother new technologies as well as developing our ability to work as teams.
-                We also ran a number of small events where we invited non-society members to try out simpler tasks in order to show people how important digital literacy
+            <p>In my first year of university, I took the initiative to set up a Coding Club Society as there was not one yet running. I felt as though there was not yet a good 
+                way for people who are interested in programming to gather, collaberate and discuss topics in and related to programming. In the club,
+                we work together on a range of small projects to gradually teach eachother new technologies as well as developing our ability to work as teams.
+                We also ran a number of small events where we invited non-society members to try out activities in order to show people how important digital literacy
                 is and how it can aid them in their fields that may not be directly related to technology.
             </p>
         </div>
