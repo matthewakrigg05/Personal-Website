@@ -6,7 +6,6 @@ import Achievements from "./achievements";
 
 const AboutMePage = () => (
   <div>
-    <NavigationBar />
     <main>
       <PageTitle />
       <Introduction />

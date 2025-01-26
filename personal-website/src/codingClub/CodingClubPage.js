@@ -1,11 +1,9 @@
 import React from "react";
-import NavigationBar from "../navbar/navigation";
 import PageTitle from "./creatingClub";
 import ClubDescription from "./createClubDesc";
 
-const AboutMePage = () => (
+const CodingClubPage = () => (
   <div>
-    <NavigationBar />
     <main>
       <PageTitle />
       <ClubDescription />

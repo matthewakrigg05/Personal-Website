@@ -1,12 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./navbar.css"; // Import your CSS file for styles
 
-export default function Home() {
-  return (
+const   NavigationBar = () => (
+  <div className="navbar">
     <div className="navbar">
 
-      <Link to="../aboutMe/aboutMePage">About Me</Link>
+      <a href="../aboutMe/aboutMePage">About Me</a>
 
       {/* University Dropdown */}
       <div className="dropdown">
@@ -14,9 +13,11 @@ export default function Home() {
         <button className="dropbtn">University <i className="fa fa-caret-down"></i></button>
 
         <div className="dropdown-content">
-          <Link to="../codingClub/CodingClub.js">Coding Club</Link>
+          <a href="../codingClub/CodingClubPage">Coding Club</a>
         </div>
       </div>
     </div>
-  );
-}
+  </div>
+);
+
+export default NavigationBar;
