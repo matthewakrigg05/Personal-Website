@@ -1,16 +1,14 @@
 import React from "react";
 import NavigationBar from "../navbar/navigation";
-import PageTitle from "./pageTitle";
-import Introduction from "./introduction";
-import Achievements from "./achievements";
+import PageTitle from "./creatingClub";
+import ClubDescription from "./createClubDesc";
 
 const AboutMePage = () => (
   <div>
     <NavigationBar />
     <main>
       <PageTitle />
-      <Introduction />
-      <Achievements />
+      <ClubDescription />
     </main>
   </div>
 );

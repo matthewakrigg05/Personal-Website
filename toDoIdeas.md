@@ -1,3 +1,0 @@
- - make sure site is responsive
- - look into running site off a raspberry pi
- - include pictures of projects
