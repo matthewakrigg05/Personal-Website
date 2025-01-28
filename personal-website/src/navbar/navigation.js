@@ -10,9 +10,10 @@ const   NavigationBar = () => (
       {/* University Dropdown */}
       <div className="dropdown">
         
-        <button className="dropbtn">University <i className="fa fa-caret-down"></i></button>
+        <a href="#university">University <i className="fa fa-caret-down"></i></a>
 
         <div className="dropdown-content">
+          <a href="../codingClub/CodingClubPage">Coding Club</a>
           <a href="../codingClub/CodingClubPage">Coding Club</a>
         </div>
       </div>
