@@ -4,6 +4,11 @@ import ClubDescription from "./createClubDesc";
 
 const CodingClubPage = () => (
   <div>
+
+    <head>
+      <title>Coding Club</title>
+    </head>
+
     <main>
       <PageTitle />
       <ClubDescription />
@@ -11,4 +16,4 @@ const CodingClubPage = () => (
   </div>
 );
 
-export default AboutMePage;
+export default CodingClubPage;

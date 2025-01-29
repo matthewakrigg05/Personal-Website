@@ -4,4 +4,4 @@ const IntroText = () => <p>This page is dedicated to the projects that have take
                         and journey as a programmer.
                         </p>
 
-export default { IntroText };
+export { IntroText };

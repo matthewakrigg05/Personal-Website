@@ -17,4 +17,4 @@ const TTText = () => <p>In addition to my academic interests during my time at u
                     </p>
 
 
-export default { IntroText, ResearchClubText, TTText };
+export { IntroText, ResearchClubText, TTText };

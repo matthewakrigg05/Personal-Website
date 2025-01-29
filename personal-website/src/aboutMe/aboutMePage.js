@@ -5,7 +5,12 @@ import Introduction from "./introduction";
 import Achievements from "./achievements";
 
 const AboutMePage = () => (
+  
   <div>
+    <head>
+      <title>About Me</title>
+    </head>
+
     <NavigationBar />
     <main>
       <PageTitle />

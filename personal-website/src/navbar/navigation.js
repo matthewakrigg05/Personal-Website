@@ -1,23 +1,38 @@
 import React from "react";
-import "./navbar.css"; // Import your CSS file for styles
+import "./navbar.css";
+import { Link } from "react-router-dom";
 
-const   NavigationBar = () => (
-  <div className="navbar">
+const  NavigationBar = () => {
+  return (
     <div className="navbar">
+      <div className="navbar">
 
-      <a href="../aboutMe/aboutMePage">About Me</a>
+        <Link to="/AboutMe">About Me</Link>
 
-      {/* University Dropdown */}
-      <div className="dropdown">
-        
-        <button className="dropbtn">University <i className="fa fa-caret-down"></i></button>
+        {/* University Dropdown */}
+        <div className="dropdown">
+          
+          <button className="nav-dropdown-button">University <i className="fa fa-caret-down"></i></button>
 
-        <div className="dropdown-content">
-          <a href="../codingClub/CodingClubPage">Coding Club</a>
+          <div className="dropdown-content">
+            <Link to="/CodingClub">Coding Club</Link>
+            <Link to="/ExtraCurricular">Extra Curricular</Link>
+          </div>
         </div>
+
+        <div className="dropdown">
+          
+          <button className="nav-dropdown-button">Projects <i className="fa fa-caret-down"></i></button>
+
+          <div className="dropdown-content">
+            <Link to="/MinorProjects">Minor Projects</Link>
+            <Link to="/MajorProjects">Major Projects</Link>
+          </div>
+        </div>
+
       </div>
     </div>
-  </div>
-);
+  );
+}
 
 export default NavigationBar;
