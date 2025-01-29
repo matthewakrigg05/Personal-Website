@@ -11,19 +11,26 @@
   padding-left: 1em;
 }
 
-.navbar a {
+.navbar a, .nav-dropdown-button {
   float: left;
   color: #E9ECEF;
   padding: 16px 16px;
   text-decoration: none;
   transition: background-color 0.3s;
+  border: none;
+}
+
+.nav-dropdown-button {
+ background-color: inherit;
+ color: inherit;
+ font-size: inherit;
 }
 
 .dropdown {
   overflow: hidden;
 }
 
-.navbar a:hover {
+.navbar a:hover, .nav-dropdown-button:hover {
   background-color: #6C757D; 
 }
 

@@ -16,4 +16,4 @@ const CodingClubPage = () => (
   </div>
 );
 
-export default AboutMePage;
+export default CodingClubPage;

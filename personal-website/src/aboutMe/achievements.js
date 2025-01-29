@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Achievements = () => (
   <div className="intro">
@@ -23,7 +24,7 @@ const Achievements = () => (
       also undertook a volunteering role, in my second year, as a student
       mentor in the Computer Science department. If you would like to know more
       I have expanded on these two achievements further in my{" "}
-      <a href="ExtraCurricular.html">Extra Curricular</a> page!
+      <Link  to="../extraCurricular/ExtraCurricularPage.js">Extra Curricular</Link> page!
     </p>
   </div>
 );
