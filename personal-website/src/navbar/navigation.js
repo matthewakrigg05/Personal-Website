@@ -8,9 +8,7 @@ import { Link } from "react-router-dom";
 
 const  NavigationBar = () => {
   return (
-    <div className="navbar">
       <div className="navbar">
-
         <Link to="/AboutMe">About Me</Link>
         
         <div className="dropdown">
@@ -35,23 +33,22 @@ const  NavigationBar = () => {
 
         <div className="medialinks">
           <Link to="https://www.linkedin.com/in/matthewakrigg/">
-              <img src={linkedinLogo} className="LinkedIn Icon" alt="LinkedIn Logo" />
+              <img src={linkedinLogo} alt="LinkedIn Logo" />
           </Link>
 
           <Link to="https://github.com/matthewakrigg05">
-            <img src={githubLogo} className="GitHub Icon" alt="GitHub Logo" />
+            <img src={githubLogo} alt="GitHub Logo" />
           </Link>
 
           <Link to="https://x.com/mattak05">
-            <img src={twitterlogo} className="Twitter Icon" alt="Twitter Logo" />
+            <img src={twitterlogo} alt="Twitter Logo" />
           </Link>
 
           <Link to="https://www.instagram.com/matthewakrigg/">
-            <img src={instagramLogo} className="Instagram Icon" alt="Instagram Logo" />
+            <img src={instagramLogo} alt="Instagram Logo" />
           </Link>
         </div>
       </div>
-    </div>
   );
 }
 

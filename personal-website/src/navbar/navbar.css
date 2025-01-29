@@ -58,18 +58,14 @@
   display: block;
 }
 
-#medialinks{
-  float: right;
-  margin-right: 2%;
-  padding-right: 15px;
+.medialinks {
+  position: absolute;
+  right: 0;
+  display: flex;
+  margin-right: 1em;
+  height: 99%;
 }
 
-#medialinks img{
-  float: right;
+.medialinks img {
   max-width: 17px;
-  max-height: 100%;
-}
-
-#aboutMe {
-  margin-left: 2%;
 }
