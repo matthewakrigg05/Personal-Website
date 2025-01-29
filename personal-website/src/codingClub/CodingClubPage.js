@@ -4,6 +4,11 @@ import ClubDescription from "./createClubDesc";
 
 const CodingClubPage = () => (
   <div>
+
+    <head>
+      <title>Coding Club</title>
+    </head>
+
     <main>
       <PageTitle />
       <ClubDescription />

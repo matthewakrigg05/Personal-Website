@@ -4,6 +4,10 @@ import { IntroText, ResearchClubText, TTText } from "./ExtraCurricularText";
 
 const CodingClubPage = () => (
   <div>
+    <head>
+      <title>Extra ExtraCurricular</title>
+    </head>
+
     <main>
       <PageTitle />
       <IntroText />

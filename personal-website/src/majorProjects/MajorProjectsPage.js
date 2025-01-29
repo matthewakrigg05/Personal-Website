@@ -4,6 +4,10 @@ import { IntroText } from "./MajorProejectsText";
 
 const MajorProjectsPage = () => (
   <div>
+    <head>
+      <title>Major Personal Projects</title>
+    </head>
+
     <main>
         <PageTitle />
         <IntroText />
