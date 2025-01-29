@@ -1,5 +1,9 @@
 import React from "react";
 import "./navbar.css";
+import linkedinLogo from "./images/linkedin.png";
+import githubLogo from "./images/github.png";
+import twitterlogo from "./images/twitter.png";
+import instagramLogo from "./images/instagram.png";
 import { Link } from "react-router-dom";
 
 const  NavigationBar = () => {
@@ -30,6 +34,23 @@ const  NavigationBar = () => {
           </div>
         </div>
 
+        <div className="medialinks">
+          <Link to="https://www.linkedin.com/in/matthewakrigg/">
+              <img src={linkedinLogo} className="LinkedIn Icon" alt="LinkedIn Logo" />
+          </Link>
+
+          <Link to="https://github.com/matthewakrigg05">
+            <img src={githubLogo} className="GitHub Icon" alt="GitHub Logo" />
+          </Link>
+
+          <Link to="https://x.com/mattak05">
+            <img src={twitterlogo} className="Twitter Icon" alt="Twitter Logo" />
+          </Link>
+
+          <Link to="https://www.instagram.com/matthewakrigg/">
+            <img src={instagramLogo} className="Instagram Icon" alt="Instagram Logo" />
+          </Link>
+        </div>
       </div>
     </div>
   );
