@@ -4,4 +4,4 @@ const IntroText = () => <p>On this page of my personal portfolio website, I shar
                         demanding.
                         </p>
 
-export default { IntroText };
+export { IntroText };

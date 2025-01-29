@@ -8,4 +8,4 @@ const CalcuatorAppTitle = () => <h2>Calcuator App</h2>
 
 const FileLockingTitle = () => <h2>File Locking App</h2>
 
-export default { PageTitle, WeatherSiteTitle, CalcuatorAppTitle, FileLockingTitle };
+export { PageTitle, WeatherSiteTitle, CalcuatorAppTitle, FileLockingTitle };

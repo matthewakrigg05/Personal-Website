@@ -2,7 +2,7 @@ import React from "react";
 import { PageTitle, WeatherSiteTitle, CalcuatorAppTitle, FileLockingTitle } from "./MinorProjectHeadings";
 import { IntroText } from "./MinorProjectText";
 
-const MajorProjectsPage = () => (
+const MinorProjectsPage = () => (
   <div>
     <head>
       <title>Major Personal Projects</title>
@@ -21,4 +21,4 @@ const MajorProjectsPage = () => (
   </div>
 );
 
-export default MajorProjectsPage;
+export default MinorProjectsPage;
