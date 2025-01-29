@@ -12,8 +12,7 @@ const  NavigationBar = () => {
       <div className="navbar">
 
         <Link to="/AboutMe">About Me</Link>
-
-        {/* University Dropdown */}
+        
         <div className="dropdown">
           
           <button className="nav-dropdown-button">University <i className="fa fa-caret-down"></i></button>
